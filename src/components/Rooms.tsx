@@ -10,19 +10,19 @@ const Rooms = () => {
 
       images: [
         {
-          url: "/img/Pre.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743768194266-Pre.jpg",
           alt: "Quarto Presidencial - Sala de Estar"
         },
         {
-          url: "/img/Pre1.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743770387004-Pre1.jpg",
           alt: "Quarto Presidencial - Vista do Quarto"
         },
         {
-          url: "/img/Pre2.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743770409827-Pre2.jpg",
           alt: "Quarto Presidencial - Área de Entretenimento"
         },
         {
-          url: "/img/Pre3.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743770463084-Pre3.jpg",
           alt: "Quarto Presidencial - Quarto Principal"
         }
       ],
@@ -34,15 +34,15 @@ const Rooms = () => {
       price: "5.000,00MT",
       images: [
         {
-          url: "/img/Exec.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743770673769-Exec2.jpg",
           alt: "Quarto Executivo - Visão Geral"
         },
         {
-          url: "/img/Exec1.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743780610139-Exec.jpg",
           alt: "Quarto Executivo - Área de Trabalho"
         },
         {
-          url: "/img/Exec2.jpg",
+          url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743770645858-Exec1.jpg",
           alt: "Quarto Executivo - Casa de Banho"
         }
       ],

@@ -16,14 +16,14 @@ const Services = () => {
         description: "Espaços profissionais para reuniões e eventos corporativos.",
         images: [
           {
-            url: "/img/r.jpg",
+            url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789336561-rr.jpg",
             alt: "Quarto Presidencial - Sala de Estar"
           },
         
         /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Reuniao/Exec.jpg`, alt: "Sala de Reunião Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Reuniao/Exec1.jpg`, alt: "Área de Apresentação" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Reuniao/Exec2.jpg`, alt: "Espaço de Networking" }
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec.jpg`, alt: "Sala de Reunião Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec1.jpg`, alt: "Área de Apresentação" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec2.jpg`, alt: "Espaço de Networking" }
         */],
         detailedInfo: "Nossas salas de reunião são equipadas com tecnologia de ponta..."
       },
@@ -34,15 +34,15 @@ const Services = () => {
         
         images: [
           {
-            url: "/img/rr.jpg",
+            url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789323328-r.jpg",
             alt: "Quarto Presidencial - Sala de Estar"
           },
 
         
         /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Restaurante/Pre.jpg`, alt: "Restaurante Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Restaurante/Pre1.jpg`, alt: "Bar Lounge" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Restaurante/Pre2.jpg`, alt: "Área VIP" }
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre.jpg`, alt: "Restaurante Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre1.jpg`, alt: "Bar Lounge" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre2.jpg`, alt: "Área VIP" }
         */],
         detailedInfo: "Nosso restaurante oferece uma experiência gastronômica única..."
       },
@@ -53,14 +53,14 @@ const Services = () => {
         
         images: [
           {
-            url: "/img/l.jpg",
+            url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789357201-l.jpg",
             alt: "Serviço completo de lavandaria para sua conveniência."
           },
         /*
         images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Lavandaria/Pre3.jpg`, alt: "Lavanderia Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Lavandaria/Exec.jpg`, alt: "Área de Processamento" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Lavandaria/Exec1.jpg`, alt: "Serviço de Passadoria" }
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Pre3.jpg`, alt: "Lavanderia Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Exec.jpg`, alt: "Área de Processamento" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Exec1.jpg`, alt: "Serviço de Passadoria" }
         */],
         detailedInfo: "Oferecemos serviço completo de lavanderia com tecnologia avançada..."
       },
@@ -70,15 +70,15 @@ const Services = () => {
         description: "Piscina de luxo para relaxar e refrescar-se.",
         images: [
           {
-            url: "/img/p.jpg",
+            url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789314688-p.jpg",
             alt: "Piscina de luxo para relaxar e refrescar-se."
           },
         
         
         /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Piscina/Pre2.jpg`, alt: "Piscina Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Piscina/Pre3.jpg`, alt: "Área de Descanso" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/img/Servicos/Piscina/Pre1.jpg`, alt: "Bar da Piscina" }
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre2.jpg`, alt: "Piscina Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre3.jpg`, alt: "Área de Descanso" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre1.jpg`, alt: "Bar da Piscina" }
         */],
         detailedInfo: "Nossa piscina oferece um ambiente relaxante com espreguiçadeiras..."
       }
