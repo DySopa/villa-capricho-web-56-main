@@ -15,32 +15,53 @@ const Services = () => {
         title: "Sala de Reunião",
         description: "Espaços profissionais para reuniões e eventos corporativos.",
         images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Exec.jpg`, alt: "Sala de Reunião Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Exec1.jpg`, alt: "Área de Apresentação" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Exec2.jpg`, alt: "Espaço de Networking" }
-        ],
+          {
+            url: "/public/Servicos/Reuniao/uma-sala-de-conferencias-com-um-grande-ecra-que-diz-conferencia_23-2151929038.jpg",
+            alt: "Quarto Presidencial - Sala de Estar"
+          },
+        
+        /*images: [
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec.jpg`, alt: "Sala de Reunião Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec1.jpg`, alt: "Área de Apresentação" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec2.jpg`, alt: "Espaço de Networking" }
+        */],
         detailedInfo: "Nossas salas de reunião são equipadas com tecnologia de ponta..."
       },
       {
         icon: <Utensils className="w-10 h-10" />,
         title: "Restaurante & Bar",
         description: "Gastronomia de alta qualidade e bebidas premium.",
+        
         images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre.jpg`, alt: "Restaurante Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre1.jpg`, alt: "Bar Lounge" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre2.jpg`, alt: "Área VIP" }
-        ],
+          {
+            url: "/public/Servicos/Restaurante/design-moderno-club-restaurante-bar-dentro-de-casa_530697-26351.jpg",
+            alt: "Quarto Presidencial - Sala de Estar"
+          },
+
+        
+        /*images: [
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre.jpg`, alt: "Restaurante Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre1.jpg`, alt: "Bar Lounge" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre2.jpg`, alt: "Área VIP" }
+        */],
         detailedInfo: "Nosso restaurante oferece uma experiência gastronômica única..."
       },
       {
         icon: <Shirt className="w-10 h-10" />,
         title: "Lavandaria",
         description: "Serviço completo de lavandaria para sua conveniência.",
+        
         images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre3.jpg`, alt: "Lavanderia Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Exec.jpg`, alt: "Área de Processamento" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Exec1.jpg`, alt: "Serviço de Passadoria" }
-        ],
+          {
+            url: "/public/Servicos/Lavandaria/lavanderia-com-bancada-para-dobrar-roupas-com-inteligencia-artificial-ai_864588-10311.jpg",
+            alt: "Quarto Presidencial - Sala de Estar"
+          },
+        /*
+        images: [
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Pre3.jpg`, alt: "Lavanderia Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Exec.jpg`, alt: "Área de Processamento" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Exec1.jpg`, alt: "Serviço de Passadoria" }
+        */],
         detailedInfo: "Oferecemos serviço completo de lavanderia com tecnologia avançada..."
       },
       {
@@ -48,10 +69,17 @@ const Services = () => {
         title: "Piscina",
         description: "Piscina de luxo para relaxar e refrescar-se.",
         images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre2.jpg`, alt: "Piscina Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre3.jpg`, alt: "Área de Descanso" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/services/Pre1.jpg`, alt: "Bar da Piscina" }
-        ],
+          {
+            url: "/public/Servicos/Piscina/1237747211-4-pedras-para-cascata-de-piscina-formam-uma-linda-cachoeira-artificial-fonte-nautilus.jpg",
+            alt: "Quarto Presidencial - Sala de Estar"
+          },
+        
+        
+        /*images: [
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre2.jpg`, alt: "Piscina Principal" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre3.jpg`, alt: "Área de Descanso" },
+          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre1.jpg`, alt: "Bar da Piscina" }
+        */],
         detailedInfo: "Nossa piscina oferece um ambiente relaxante com espreguiçadeiras..."
       }
     ];
