@@ -10,19 +10,19 @@ const Rooms = () => {
 
       images: [
         {
-          url: "/public/Presidencial/Pre.jpg",
+          url: "/img/Pre.jpg",
           alt: "Quarto Presidencial - Sala de Estar"
         },
         {
-          url: "/public/Presidencial/Pre1.jpg",
+          url: "/img/Pre1.jpg",
           alt: "Quarto Presidencial - Vista do Quarto"
         },
         {
-          url: "/public/Presidencial/Pre2.jpg",
+          url: "/img/Pre2.jpg",
           alt: "Quarto Presidencial - Área de Entretenimento"
         },
         {
-          url: "/public/Presidencial/Pre3.jpg",
+          url: "/img/Pre3.jpg",
           alt: "Quarto Presidencial - Quarto Principal"
         }
       ],
@@ -34,15 +34,15 @@ const Rooms = () => {
       price: "5.000,00MT",
       images: [
         {
-          url: "/public/Executivo/Exec.jpg",
+          url: "/img/Exec.jpg",
           alt: "Quarto Executivo - Visão Geral"
         },
         {
-          url: "/public/Executivo/Exec1.jpg",
+          url: "/img/Exec1.jpg",
           alt: "Quarto Executivo - Área de Trabalho"
         },
         {
-          url: "/public/Executivo/Exec2.jpg",
+          url: "/img/Exec2.jpg",
           alt: "Quarto Executivo - Casa de Banho"
         }
       ],
