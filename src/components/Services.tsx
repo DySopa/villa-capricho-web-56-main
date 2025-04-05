@@ -38,6 +38,12 @@ const Services = () => {
             alt: "Quarto Presidencial - Sala de Estar"
           },
 
+          images: [
+          {
+            url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789323328-r.jpg",
+          },
+
+
         
         /*images: [
           { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre.jpg`, alt: "Restaurante Principal" },
