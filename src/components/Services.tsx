@@ -20,11 +20,7 @@ const Services = () => {
             alt: "Quarto Presidencial - Sala de Estar"
           },
         
-        /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec.jpg`, alt: "Sala de Reunião Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec1.jpg`, alt: "Área de Apresentação" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec2.jpg`, alt: "Espaço de Networking" }
-        */],
+        
         detailedInfo: "Nossas salas de reunião são equipadas com tecnologia de ponta..."
       },
       {
@@ -42,14 +38,7 @@ const Services = () => {
           {
             url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789323328-r.jpg",
           },
-
-
-        
-        /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre.jpg`, alt: "Restaurante Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre1.jpg`, alt: "Bar Lounge" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre2.jpg`, alt: "Área VIP" }
-        */],
+    
         detailedInfo: "Nosso restaurante oferece uma experiência gastronômica única..."
       },
       {
