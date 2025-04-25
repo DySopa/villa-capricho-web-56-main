@@ -5,8 +5,8 @@ import { MapPin, Phone, Mail, Facebook, Instagram, Twitter } from "lucide-react"
 const Footer = () => {
   return (
     <footer className="bg-navy text-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* About */}
           <div>
             <h3 className="text-2xl font-bold mb-6 text-gold">Hotel Villa Capricho</h3>
@@ -32,15 +32,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 text-gold mt-1" />
-                <span>Mahulane, Distrito de Moamba<br />Provincia - Maputo</span>
+                <span>Moamba, Provincia - Maputo</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-gold" />
-                <span>+258 84 031 7375 | 85 760 4763</span>
+                <span>+258 84 031 7375<br />+258 85 760 4763</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 text-gold" />
-                <span>caxtonsanyanga2011@gmail.com <br /> info@villacapricho.pt</span>
+                <span> info@hotelvillacapricho.pt <br /> reservas@hotelvillacapricho.pt </span>
                 
               </li>
             </ul>
