@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Bed, Users, Shirt, ShoppingBag, Utensils, Waves } from "lucide-react";
 import ServiceDialog from "./ServiceDialog";
@@ -17,58 +16,34 @@ const Services = () => {
         images: [
           {
             url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789336561-rr.jpg",
-            alt: "Quarto Presidencial - Sala de Estar"
+            alt: "Quarto Presidencial - Sala de Estar",
           },
-        
-        /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec.jpg`, alt: "Sala de Reunião Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec1.jpg`, alt: "Área de Apresentação" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Reuniao/Exec2.jpg`, alt: "Espaço de Networking" }
-        */],
-        detailedInfo: "Nossas salas de reunião são equipadas com tecnologia de ponta..."
+        ],
+        detailedInfo: "Nossas salas de reunião são equipadas com tecnologia de ponta...",
       },
       {
         icon: <Utensils className="w-10 h-10" />,
         title: "Restaurante & Bar",
         description: "Gastronomia de alta qualidade e bebidas premium.",
-        
         images: [
           {
             url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789323328-r.jpg",
-            alt: "Quarto Presidencial - Sala de Estar"
+            alt: "Restaurante e Bar",
           },
-
-          images: [
-          {
-            url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789323328-r.jpg",
-          },
-
-
-        
-        /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre.jpg`, alt: "Restaurante Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre1.jpg`, alt: "Bar Lounge" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Restaurante/Pre2.jpg`, alt: "Área VIP" }
-        */],
-        detailedInfo: "Nosso restaurante oferece uma experiência gastronômica única..."
+        ],
+        detailedInfo: "Nosso restaurante oferece uma experiência gastronômica única...",
       },
       {
         icon: <Shirt className="w-10 h-10" />,
         title: "Lavandaria",
         description: "Serviço completo de lavandaria para sua conveniência.",
-        
         images: [
           {
             url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789357201-l.jpg",
-            alt: "Serviço completo de lavandaria para sua conveniência."
+            alt: "Serviço completo de lavandaria para sua conveniência.",
           },
-        /*
-        images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Pre3.jpg`, alt: "Lavanderia Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Exec.jpg`, alt: "Área de Processamento" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Lavandaria/Exec1.jpg`, alt: "Serviço de Passadoria" }
-        */],
-        detailedInfo: "Oferecemos serviço completo de lavanderia com tecnologia avançada..."
+        ],
+        detailedInfo: "Oferecemos serviço completo de lavanderia com tecnologia avançada...",
       },
       {
         icon: <Waves className="w-10 h-10" />,
@@ -77,17 +52,11 @@ const Services = () => {
         images: [
           {
             url: "https://vazqzipehewahhcqtdfw.supabase.co/storage/v1/object/public/media/1743789314688-p.jpg",
-            alt: "Piscina de luxo para relaxar e refrescar-se."
+            alt: "Piscina de luxo para relaxar e refrescar-se.",
           },
-        
-        
-        /*images: [
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre2.jpg`, alt: "Piscina Principal" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre3.jpg`, alt: "Área de Descanso" },
-          { url: `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/Servicos/Piscina/Pre1.jpg`, alt: "Bar da Piscina" }
-        */],
-        detailedInfo: "Nossa piscina oferece um ambiente relaxante com espreguiçadeiras..."
-      }
+        ],
+        detailedInfo: "Nossa piscina oferece um ambiente relaxante com espreguiçadeiras...",
+      },
     ];
 
     setServices(mockData);

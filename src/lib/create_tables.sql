@@ -2,9 +2,17 @@
 CREATE TABLE rooms (
   id SERIAL PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
-  description TEXT,
+  description TEXT NOT NULL,
+  capacity INTEGER NOT NULL,
+  amenities TEXT[],
+  images TEXT[] NOT NULL,
   image_path VARCHAR(255),
-  status VARCHAR(20) NOT NULL CHECK (status IN ('disponível', 'ocupado', 'manutenção'))
+  featured BOOLEAN DEFAULT false,
+  promotion_id INTEGER REFERENCES promotions(id),
+  regular_price DECIMAL(10,2) NOT NULL,
+  status VARCHAR(20) NOT NULL CHECK (status IN ('disponível', 'ocupado', 'manutenção')),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP
 );
 
 -- Tabela de serviços
@@ -51,11 +59,24 @@ CREATE TABLE prices (
   updated_at TIMESTAMP
 );
 
+
+
+CREATE TABLE services (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  description TEXT NOT NULL,
+  icon VARCHAR(255),
+  images TEXT[] NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP
+);
+
 CREATE TABLE promotions (
   id SERIAL PRIMARY KEY,
   title VARCHAR(100) NOT NULL,
-  room_type VARCHAR(100) NOT NULL,
-  active BOOLEAN DEFAULT true,
+  room_id INTEGER REFERENCES rooms(id),
+  active BOOLEAN DEFAULT false,
+  promotional_price DECIMAL(10,2),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP
 );
